@@ -12,7 +12,7 @@ class Order2 extends React.Component
 
 function NewsList()
 {
-    const orderItems =  [{id:1, name:'Шапка', count:1}, {id:2, name:'Яке', count:2}, {id:3, name:'Блуза', count:3}]
+    const orderItems =  [{id:1, name:'Шапка', count:1}, {id:2, name:'Яке', count:2}, {id:3, name:'Блуза', count:3}, {id:4, name:'Тениска', count:4}]
     
     const [items, setItems] = useState(orderItems);
 
