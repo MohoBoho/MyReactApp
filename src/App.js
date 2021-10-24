@@ -5,7 +5,7 @@ import NewsList from  './components/NewsList.js'
 function App() {
   return (
         <>
-          <h1>Моят уеб сайт :)</h1>
+          <h1>Моят уеб сайт :_)</h1>
           <hr/>
           <NewsList/>          
         </>
