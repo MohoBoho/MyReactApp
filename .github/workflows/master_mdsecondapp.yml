@@ -53,4 +53,4 @@ jobs:
           app-name: 'MDSecondApp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A2FD172B788B4E0BBC0CFDBDE652BD82 }}
-          package: ./build
+          package: .
