@@ -34,7 +34,7 @@ function NewsList()
             }
     }
 
-    return  items.map(item=><News key={item.id} singleItem={item}/>);
+    return  items.map(item=><News key={item.id} singleItem={item} increaceItemCount={increaceItemCount}/>);
 }
 
 export default NewsList;
